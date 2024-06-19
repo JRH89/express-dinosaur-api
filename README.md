@@ -31,3 +31,53 @@ The dataset contains information about dinosaurs, including their occurrence num
 To run this project locally or deploy it to a cloud platform, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine.
+   
+2. **Navigate to the Project Directory**: Open a terminal or command prompt and change directory to the cloned repository.
+   
+3. **Install Dependencies**: Install the required dependencies using npm. You can do this by running `npm install` in your terminal.
+   
+4. **Set up Environment Variables**: Create a `.env` file in the root directory of your project. In this file, add the following environment variables:
+   - `SUPABASE_URL`: This should be set to your Supabase project URL.
+   - `SUPABASE_KEY`: This should be set to your Supabase project API key.
+   
+   Replace `your-supabase-url` and `your-supabase-api-key` with your actual Supabase URL and API key. You can obtain these from your Supabase project settings.
+
+5. **Start the Server**: Once dependencies are installed and environment variables are set, start the Express.js server by running `npm start` in your terminal.
+
+6. **Access the API**: After starting the server, you can access the API endpoints to retrieve dinosaur facts.
+
+## API Endpoints
+
+### Search Dinosaur by Name
+
+- **GET /dinosaurs?name=:name**: Retrieve dinosaur records by name. Replace `:name` with the name of the dinosaur you want to search for.
+
+
+Certainly! Here are the API directions in plain text format:
+
+API Endpoints
+Search Dinosaur by Name
+
+GET /dinosaurs?name=
+Retrieve dinosaur records by name. Replace :name with the name of the dinosaur you want to search for.
+
+Example:
+GET /dinosaurs?name=Stegosaurus
+
+Response:
+
+{
+  "occurrence_no": 428,
+  "name": "Stegosaurus",
+  "diet": "herbivorous",
+  "type": "ornithischian",
+  "length_m": 9,
+  "max_ma": 155,
+  "min_ma": 145,
+  "region": "North America",
+  "lng": -108.5,
+  "lat": 38.8,
+  "class": "Ornithischia",
+  "family": "Stegosauridae"
+}
+
