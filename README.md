@@ -50,7 +50,7 @@ To run this project locally or deploy it to a cloud platform, follow these steps
 
 ### Search Dinosaur by Name
 
-- **GET /dinosaurs?name=:name**: Retrieve dinosaur records by name. Replace `:name` with the name of the dinosaur you want to search for.
+- **'GET /dinosaurs?name=:name'**: Retrieve dinosaur records by name. Replace `:name` with the name of the dinosaur you want to search for.
 
 Example: 
 
