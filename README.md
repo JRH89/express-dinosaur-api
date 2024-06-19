@@ -1,4 +1,4 @@
-# Project: RESTful API for Dinosaur Facts with Supabase and Express.js
+# RESTful API for Dinosaur Facts with Supabase and Express.js
 
 This project demonstrates how to build a RESTful API using Supabase as the backend database and Express.js as the server framework. The API provides access to a dataset of dinosaur facts sourced from a free dataset available on Kaggle.
 
