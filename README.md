@@ -52,20 +52,15 @@ To run this project locally or deploy it to a cloud platform, follow these steps
 
 - **GET /dinosaurs?name=:name**: Retrieve dinosaur records by name. Replace `:name` with the name of the dinosaur you want to search for.
 
+Example: 
 
-Certainly! Here are the API directions in plain text format:
-
-API Endpoints
-Search Dinosaur by Name
-
-GET /dinosaurs?name=
-Retrieve dinosaur records by name. Replace :name with the name of the dinosaur you want to search for.
-
-Example:
-GET /dinosaurs?name=Stegosaurus
+```bash
+GET /dinosaurs?name=:name
+```
 
 Response:
 
+```json
 {
   "occurrence_no": 428,
   "name": "Stegosaurus",
@@ -80,4 +75,4 @@ Response:
   "class": "Ornithischia",
   "family": "Stegosauridae"
 }
-
+```
