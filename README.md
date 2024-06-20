@@ -183,16 +183,16 @@ A. **Run your Express.js application:**
 node server.js
 ```
 
-B. **Use `curl` or a tool like Postman to test the API:**
+B. **Use 'curl' or a tool like Postman to test the API:**
 
 Download and Install Curl:
 
-    - Download the latest release at:
+Download the latest release at:
         https://curl.se/download.html
 
-    - Extract the .zip
+Extract the .zip
 
-    - Add the location of the extracted folder to your system's PATH. <br/> (e.g. 'C:\curl-8.8.0\curl-8.8.0')
+Add the location of the extracted folder to your system's PATH. <br/> (e.g. 'C:\curl-8.8.0\curl-8.8.0')
 
 Example Usage:
 
