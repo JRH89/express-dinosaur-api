@@ -30,65 +30,13 @@ The dataset contains information about dinosaurs, including their occurrence num
 
 # Full Tutorial
 
-## Project Setup
-
-To run this project locally or deploy it to a cloud platform, follow these steps:
-
-1. **Clone the Repository**: Clone this repository to your local machine.
-   
-2. **Navigate to the Project Directory**: Open a terminal or command prompt and change directory to the cloned repository.
-   
-3. **Install Dependencies**: Install the required dependencies using npm. You can do this by running `npm install` in your terminal.
-   
-4. **Set up Environment Variables**: Create a `.env` file in the root directory of your project. In this file, add the following environment variables:
-   - `SUPABASE_URL`: This should be set to your Supabase project URL.
-   - `SUPABASE_KEY`: This should be set to your Supabase project API key.
-   
-   Replace `your-supabase-url` and `your-supabase-api-key` with your actual Supabase URL and API key. You can obtain these from your Supabase project settings.
-
-5. **Start the Server**: Once dependencies are installed and environment variables are set, start the Express.js server by running `npm start` in your terminal.
-
-6. **Access the API**: After starting the server, you can access the API endpoints to retrieve dinosaur facts.
-
-## API Endpoints
-
-### Search Dinosaur by Name
-
-- **'GET /dinosaurs?name=:name'**: Retrieve dinosaur records by name. Replace `:name` with the name of the dinosaur you want to search for.
-
-Example: 
-
-```bash
-GET /dinosaurs?name=:name
-```
-
-Response:
-
-```json
-{
-  "occurrence_no": 428,
-  "name": "Stegosaurus",
-  "diet": "herbivorous",
-  "type": "ornithischian",
-  "length_m": 9,
-  "max_ma": 155,
-  "min_ma": 145,
-  "region": "North America",
-  "lng": -108.5,
-  "lat": 38.8,
-  "class": "Ornithischia",
-  "family": "Stegosauridae"
-}
-```
-
-
-# Introduction
+## Introduction
 
 Welcome to this comprehensive tutorial on building a RESTful API using Node.js, Express.js, and Supabase for a Dinosaur Facts Database. Whether you're a new or experiencde developer looking to enhance your skills, this guide will walk you through creating a robust API that allows users to query fascinating dinosaur facts by name.
 
 In this project, we'll utilize the power of Express.js, a fast and minimalist web framework for Node.js, and Supabase, an open-source Firebase alternative that provides a real-time database full of Dinosaur facts. By the end of this tutorial, you'll have a fully functional API capable of serving detailed information about various dinosaurs from our curated dataset provided by https://Kaggle.com.
 
-## **Step 1: Set Up the Environment**
+### **Step 1: Set Up the Environment**
 
 A. ** Create a new directory for your project:**
 
@@ -109,7 +57,7 @@ C. ** Install necessary packages:**
 npm install express @supabase/supabase-js dotenv
 ```
 
-## **Step 2: Set Up Supabase**
+### **Step 2: Set Up Supabase**
 
 A. **Create a Supabase account and project:**
 
@@ -154,7 +102,7 @@ C. ** Create a `dinosaur_facts` table in your Supabase project:
       
         - Click "Import data via CSV" and follow the on screen prompts to upload the 'dinosaurs.csv' dataset.
 
-## **Step 3: Create the Express.js Application**
+### **Step 3: Create the Express.js Application**
 
 A. **Create a new file named server.js and open it in your text editor:**
 
@@ -208,7 +156,7 @@ app.listen(port, () => {
 });
 ```
 
-## **Step 4: Configure Environment Variables**
+### **Step 4: Configure Environment Variables**
 
 A. **Create a .env file in your project directory:**
 
@@ -285,7 +233,7 @@ The JSON response for this query might look like this:
 ]
 ```
 
-## **Explanation:**
+### **Explanation:**
 
     - **Express.js Setup:** 
         The application uses Express.js to handle HTTP requests and responses.
@@ -296,7 +244,7 @@ The JSON response for this query might look like this:
     - **Environment Variables:** 
         Environment variables (PORT, SUPABASE_URL, SUPABASE_KEY) are used to configure the application and connect to Supabase securely.
 
-## FAQ
+### FAQ
 
 **What is Node.js?**
 Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser. It's used for building fast and scalable server-side applications.
@@ -316,7 +264,7 @@ Middleware functions in Express.js are functions that have access to the request
 **Why use Supabase with Express.js?**
 Supabase is an open-source alternative to Firebase that provides a suite of backend services like authentication, real-time databases, and storage. Integrating Supabase with Express.js allows you to easily add these functionalities to your application without managing infrastructure.
 
-## **Resources and Documentation**
+### **Resources and Documentation**
 
 **Node.js Documentation:**
     - Node.js Official Documentation: https://nodejs.org/en/docs/
