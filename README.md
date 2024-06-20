@@ -1,6 +1,13 @@
+
+## Author
+
+- **Name**: Jared Hooker
+- **Email**: jaredroberthooker@gmail.com
+- **GitHub**: JRH89(https://github.com/jrh89)
+
 # RESTful API for Dinosaur Facts with Supabase and Express.js
 
-This project demonstrates how to build a RESTful API using Supabase as the backend database and Express.js as the server framework. The API provides access to a dataset of dinosaur facts sourced from a free dataset available on Kaggle.
+This tutorial demonstrates how to build a RESTful API using Supabase as the backend database and Express.js as the server framework. The API provides access to a dataset of dinosaur facts sourced from a free dataset available from Kaggle.
 
 Full tutorial can be found a below, or at https://blog.hookerhillstudios.com/blogs/build-a-restful-api-with-supabase-and-express
 
