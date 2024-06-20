@@ -32,7 +32,7 @@ The dataset contains information about dinosaurs, including their occurrence num
 
 ## Introduction
 
-Welcome to this comprehensive tutorial on building a RESTful API using Node.js, Express.js, and Supabase for a Dinosaur Facts Database. Whether you're a new or experiencde developer looking to enhance your skills, this guide will walk you through creating a robust API that allows users to query fascinating dinosaur facts by name.
+Welcome to this comprehensive tutorial on building a RESTful API using Node.js, Express.js, and Supabase for a Dinosaur Facts Database. Whether you're a new or experienced developer looking to enhance your skills, this guide will walk you through creating a robust API that allows users to query fascinating dinosaur facts by name.
 
 In this project, we'll utilize the power of Express.js, a fast and minimalist web framework for Node.js, and Supabase, an open-source Firebase alternative that provides a real-time database full of Dinosaur facts. By the end of this tutorial, you'll have a fully functional API capable of serving detailed information about various dinosaurs from our curated dataset provided by https://Kaggle.com.
 
