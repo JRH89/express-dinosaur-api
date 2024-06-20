@@ -45,7 +45,7 @@ In this project, we'll utilize the power of Express.js, a fast and minimalist we
 
 ### **Step 1: Set Up the Environment**
 
-A. ** Create a new directory for your project:**
+A. **Create a new directory for your project:**
 
 ```bash
 mkdir express-dinosaur-api
@@ -58,7 +58,7 @@ B. **Initialize a new Node.js project:**
 npm init -y
 ```
 
-C. ** Install necessary packages:**
+C. **Install necessary packages:**
 
 ```bash
 npm install express @supabase/supabase-js dotenv
@@ -74,7 +74,7 @@ B. **Get your Supabase project credentials:**
 
     - In your Supabase dashboard, navigate to the "Settings", then "API" and get your project URL and API key.
 
-C. ** Create a `dinosaur_facts` table in your Supabase project:
+C. **Create a `dinosaur_facts` table in your Supabase project:**
 
     - In the Supabase dashboard, go to the "SQL" tab and execute the following SQL script to create the `dinosaur_facts` table:
 
