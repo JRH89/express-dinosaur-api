@@ -273,32 +273,33 @@ Supabase is an open-source alternative to Firebase that provides a suite of back
 ### **Resources and Documentation**
 
 **Node.js Documentation:**
-    - Node.js Official Documentation: https://nodejs.org/en/docs/
-    - Node.js API Reference: https://nodejs.org/en/docs/guides/
+
+Node.js Official Documentation: https://nodejs.org/en/docs/
+Node.js API Reference: https://nodejs.org/en/docs/guides/
 
 **Express.js Documentation:**
 
-    - Express.js Official Documentation: https://expressjs.com/en/starter/installing.html
-    - Express.js Guide: https://expressjs.com/en/guide/routing.html
+Express.js Official Documentation: https://expressjs.com/en/starter/installing.html
+Express.js Guide: https://expressjs.com/en/guide/routing.html
 
 **RESTful API Design:**
 
-    - REST API Tutorial: https://restfulapi.net/
-    - RESTful API Design Guide: https://www.restapitutorial.com/
+REST API Tutorial: https://restfulapi.net/
+RESTful API Design Guide: https://www.restapitutorial.com/
 
 **Supabase Documentation:**
 
-    - Supabase Official Documentation: https://supabase.io/docs
-    - Getting Started with Supabase: https://supabase.io/docs/guides/with-js
+Supabase Official Documentation: https://supabase.io/docs
+Getting Started with Supabase: https://supabase.io/docs/guides/with-js
 
 **HTTP Methods:**
 
-    - MDN Web Docs: HTTP Methods: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+MDN Web Docs: HTTP Methods: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 
 **JSON Guide:**
 
- - JSON Official Website: https://www.json.org/json-en.html
- - MDN Web Docs: JSON: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+JSON Official Website: https://www.json.org/json-en.html
+MDN Web Docs: JSON: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 
 # **Conclusion**
 
