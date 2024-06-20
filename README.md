@@ -198,8 +198,7 @@ Example Usage:
 
 Get dinosaur by name (e.g., "Gorgosaurus"):
 
-```
-bash
+```bash
 curl http://localhost:3000/api/dinosaurs/Gorgosaurus
 ```
 
