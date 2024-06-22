@@ -45,7 +45,7 @@ In this project, we'll utilize the power of Express.js, a fast and minimalist we
 
 ### **Step 1: Set Up the Environment**
 
-A. ** Create a new directory for your project:**
+A. **Create a new directory for your project:**
 
 ```bash
 mkdir express-dinosaur-api
@@ -58,7 +58,7 @@ B. **Initialize a new Node.js project:**
 npm init -y
 ```
 
-C. ** Install necessary packages:**
+C. **Install necessary packages:**
 
 ```bash
 npm install express @supabase/supabase-js dotenv
@@ -74,7 +74,7 @@ B. **Get your Supabase project credentials:**
 
     - In your Supabase dashboard, navigate to the "Settings", then "API" and get your project URL and API key.
 
-C. ** Create a `dinosaur_facts` table in your Supabase project:
+C. **Create a `dinosaur_facts` table in your Supabase project:**
 
     - In the Supabase dashboard, go to the "SQL" tab and execute the following SQL script to create the `dinosaur_facts` table:
 
@@ -273,32 +273,33 @@ Supabase is an open-source alternative to Firebase that provides a suite of back
 ### **Resources and Documentation**
 
 **Node.js Documentation:**
-    - Node.js Official Documentation: https://nodejs.org/en/docs/
-    - Node.js API Reference: https://nodejs.org/en/docs/guides/
+
+Node.js Official Documentation: https://nodejs.org/en/docs/
+Node.js API Reference: https://nodejs.org/en/docs/guides/
 
 **Express.js Documentation:**
 
-    - Express.js Official Documentation: https://expressjs.com/en/starter/installing.html
-    - Express.js Guide: https://expressjs.com/en/guide/routing.html
+Express.js Official Documentation: https://expressjs.com/en/starter/installing.html
+Express.js Guide: https://expressjs.com/en/guide/routing.html
 
 **RESTful API Design:**
 
-    - REST API Tutorial: https://restfulapi.net/
-    - RESTful API Design Guide: https://www.restapitutorial.com/
+REST API Tutorial: https://restfulapi.net/
+RESTful API Design Guide: https://www.restapitutorial.com/
 
 **Supabase Documentation:**
 
-    - Supabase Official Documentation: https://supabase.io/docs
-    - Getting Started with Supabase: https://supabase.io/docs/guides/with-js
+Supabase Official Documentation: https://supabase.io/docs
+Getting Started with Supabase: https://supabase.io/docs/guides/with-js
 
 **HTTP Methods:**
 
-    - MDN Web Docs: HTTP Methods: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+MDN Web Docs: HTTP Methods: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 
 **JSON Guide:**
 
- - JSON Official Website: https://www.json.org/json-en.html
- - MDN Web Docs: JSON: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+JSON Official Website: https://www.json.org/json-en.html
+MDN Web Docs: JSON: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 
 # **Conclusion**
 
