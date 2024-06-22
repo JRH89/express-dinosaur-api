@@ -12,8 +12,14 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Middleware
 app.use(express.json());
+app.use(express.static('public')); // Serve static files from 'public' directory
 
-// Routes
+// Root route - Serve your HTML file
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/public/index.html');
+});
+
+// API routes
 app.get('/api/dinosaurs', async (req, res) => {
     try {
         let { data, error } = await supabase.from('dinosaur_facts').select('*');
