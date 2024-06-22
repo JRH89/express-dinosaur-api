@@ -3,6 +3,7 @@ const { createClient } = require('@supabase/supabase-js');
 require('dotenv').config();
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
@@ -11,14 +12,8 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Middleware
 app.use(express.json());
-app.use(express.static('public')); // Serve static files from 'public' directory
 
-// Root route - Serve your HTML file
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/index.html');
-});
-
-// API routes
+// Routes
 app.get('/api/dinosaurs', async (req, res) => {
     try {
         let { data, error } = await supabase.from('dinosaur_facts').select('*');
@@ -47,4 +42,6 @@ app.get('/api/dinosaurs/:name', async (req, res) => {
 });
 
 // Start server
-module.exports = app;
+app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
