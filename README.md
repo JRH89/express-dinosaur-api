@@ -68,11 +68,11 @@ npm install express @supabase/supabase-js dotenv
 
 A. **Create a Supabase account and project:**
 
-    - Go to https://supabase.com, sign up, and create a new project.
+- Go to https://supabase.com, sign up, and create a new project.
 
 B. **Get your Supabase project credentials:**
 
-    - In your Supabase dashboard, navigate to the "Settings", then "API" and get your project URL and API key.
+- In your Supabase dashboard, navigate to the "Settings", then "API" and get your project URL and API key.
 
 C. **Create a `dinosaur_facts` table in your Supabase project:**
 
