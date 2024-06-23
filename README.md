@@ -76,7 +76,7 @@ B. **Get your Supabase project credentials:**
 
 C. **Create a `dinosaur_facts` table in your Supabase project:**
 
-    - In the Supabase dashboard, go to the "SQL" tab and execute the following SQL script to create the `dinosaur_facts` table:
+- In the Supabase dashboard, go to the "SQL" tab and execute the following SQL script to create the `dinosaur_facts` table:
 
     ```SQL
     CREATE TABLE dinosaur_facts (
@@ -95,19 +95,19 @@ C. **Create a `dinosaur_facts` table in your Supabase project:**
     );
     ```
 
-    - Download the dataset by clicking the button below:
+- Download the dataset by clicking the button below:
 
         <a href="/data/dinosaurs.csv" download>
             <button style={{ backgroundColor: '#87CEEB', padding: '10px' }}>Download</button>
         </a>
 
-    - Next, upload your dataset (e.g., CSV file) containing dinosaur facts into this table through the Supabase dashboard. 
+- Next, upload your dataset (e.g., CSV file) containing dinosaur facts into this table through the Supabase dashboard. 
        
-        - Click "Table Editor" tab on the left-side navigation menu.
+- Click "Table Editor" tab on the left-side navigation menu.
       
-        - Select the 'dinosaur_facts' table created ealier in this step (2-C). 
+- Select the 'dinosaur_facts' table created ealier in this step (2-C). 
       
-        - Click "Import data via CSV" and follow the on screen prompts to upload the 'dinosaurs.csv' dataset.
+- Click "Import data via CSV" and follow the on screen prompts to upload the 'dinosaurs.csv' dataset.
 
 ### **Step 3: Create the Express.js Application**
 
