@@ -97,9 +97,9 @@ C. **Create a `dinosaur_facts` table in your Supabase project:**
 
 - Download the dataset by clicking the button below:
 
-        <a href="/data/dinosaurs.csv" download>
-            <button style={{ backgroundColor: '#87CEEB', padding: '10px' }}>Download</button>
-        </a>
+<a href="/data/dinosaurs.csv" download>
+<button style={{ backgroundColor: '#87CEEB', padding: '10px' }}>Download</button>
+</a>
 
 - Next, upload your dataset (e.g., CSV file) containing dinosaur facts into this table through the Supabase dashboard. 
        
@@ -185,24 +185,24 @@ node server.js
 
 B. **Use 'curl' or a tool like Postman to test the API:**
 
-Download and Install Curl:
+1. Download and Install Curl:
 
-Download the latest release at:
+- Download the latest release at:
         https://curl.se/download.html
 
-Extract the .zip
+- Extract the .zip
 
-Add the location of the extracted folder to your system's PATH. <br/> (e.g. 'C:\curl-8.8.0\curl-8.8.0')
+- Add the location of the extracted folder to your system's PATH. <br/> (e.g. 'C:\curl-8.8.0\curl-8.8.0')
 
-Example Usage:
+2. Example Usage:
 
-Get dinosaur by name (e.g., "Gorgosaurus"):
+- Get dinosaur by name (e.g., "Gorgosaurus"):
 
 ```bash
 curl http://localhost:3000/api/dinosaurs/Gorgosaurus
 ```
 
-Response:
+- Response:
 
 The JSON response for this query might look like this:
 
@@ -241,13 +241,13 @@ The JSON response for this query might look like this:
 
 ### **Explanation:**
 
-    - **Express.js Setup:** 
+- **Express.js Setup:** 
         The application uses Express.js to handle HTTP requests and responses.
 
-    - **Supabase Integration:** 
+- **Supabase Integration:** 
         Supabase is integrated using the supabase-js client to perform database operations (selecting dinosaurs).
 
-    - **Environment Variables:** 
+- **Environment Variables:** 
         Environment variables (PORT, SUPABASE_URL, SUPABASE_KEY) are used to configure the application and connect to Supabase securely.
 
 ### FAQ
