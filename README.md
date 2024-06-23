@@ -95,23 +95,17 @@ C. **Create a `dinosaur_facts` table in your Supabase project:**
     );
     ```
 
-- Download the dataset by clicking the button below:
-
-<a href="/data/dinosaurs.csv" download>
-Download
-</a>
-
-- Next, upload your dataset (e.g., CSV file) containing dinosaur facts into this table through the Supabase dashboard. 
+- Next, upload your dataset (e.g., CSV file) containing dinosaur facts into the table via the Supabase dashboard:
        
-- Click "Table Editor" tab on the left-side navigation menu.
+1. Click "Table Editor" tab on the left-side navigation menu.
       
-- Select the 'dinosaur_facts' table created ealier in this step (2-C). 
+2. Select the 'dinosaur_facts' table created earlier in this step (2-C). 
       
-- Click "Import data via CSV" and follow the on screen prompts to upload the 'dinosaurs.csv' dataset.
+3. Click "Import data via CSV" and follow the on screen prompts to upload the 'dinosaurs.csv' dataset.
 
 ### **Step 3: Create the Express.js Application**
 
-A. **Create a new file named server.js and open it in your text editor:**
+A. **Create a new file named server.js and open it in your code editor:**
 
 ```javascript
 const express = require('express');
@@ -253,21 +247,27 @@ The JSON response for this query might look like this:
 ### FAQ
 
 **What is Node.js?**
+
 Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser. It's used for building fast and scalable server-side applications.
 
 **What is Express.js?**
+
 Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It simplifies the development of server-side logic.
 
 **What is a RESTful API?**
+
 A RESTful API is an architectural style for designing networked applications. It relies on a stateless, client-server, cacheable communications protocol — the HTTP protocol.
 
 **How does Express.js handle routing?**
+
 Express.js handles routing using its .get(), .post(), .put(), .delete() methods, which correspond to HTTP GET, POST, PUT, and DELETE requests, respectively. Routes are defined based on URL paths.
 
 **What are middleware functions in Express.js?**
+
 Middleware functions in Express.js are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. They can perform various tasks such as logging, authentication, and request parsing.
 
 **Why use Supabase with Express.js?**
+
 Supabase is an open-source alternative to Firebase that provides a suite of backend services like authentication, real-time databases, and storage. Integrating Supabase with Express.js allows you to easily add these functionalities to your application without managing infrastructure.
 
 ### **Resources and Documentation**
