@@ -98,7 +98,7 @@ C. **Create a `dinosaur_facts` table in your Supabase project:**
 - Download the dataset by clicking the button below:
 
 <a href="/data/dinosaurs.csv" download>
-<button style={{ backgroundColor: '#87CEEB', padding: '10px' }}>Download</button>
+Download
 </a>
 
 - Next, upload your dataset (e.g., CSV file) containing dinosaur facts into this table through the Supabase dashboard. 
